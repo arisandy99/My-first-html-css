@@ -9,7 +9,7 @@ body{
     font-family: josefin ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
-    height: 83vh;
+    height: 90vh;
     width: 85%;
     background-color: white;
     font-family: josefin, Verdana, Geneva, Tahoma, sans-serif;
@@ -17,4 +17,158 @@ body{
     flex-direction: row;
     gap: 1vh;
     margin: 4vh auto;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    height: 83vh;
+    width: 35%;
+    background-color: white;
+}
+.profil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 16vh;
+    margin-bottom: 2vh;
+    background-color: white;
+}
+.gaz{
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.testo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+img{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+input{
+    width: 100%;
+    margin-left: 0px;
+    padding: 4px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    margin-top: 15px;
+    border: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.ninho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background-color:  rgba(128, 128, 128, 0.24);
+    border-right: 4px solid black;
+}
+.left{
+    width: 15%;
+    margin-top: 17px;
+}
+.centre{
+    width: 65%;
+    margin-top: 3px;
+}
+.right{
+    width: 20%;
+    margin-top: 0px;
+}
+.mhd{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+        background-color: white;
+}
+strong{
+    font-weight: bold;
+}
+.gims{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 0px;
+    width: 100%;
+    background-color: white;
+}
+.niska{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+}
+.papillon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+}
+.sms{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 87vh;
+}
+.inter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    margin-bottom: 1vh;   
+}
+.let{
+    display: flex;
+    flex-direction: row;
+}
+.ari{
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.ari img{
+    margin-top: 9px;
+}
+.san{
+    margin-top: 0px;
+    margin-left: 7px;
+}
+.led{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.echange{
+    height: 70vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.echange h5{
+    text-align: center;
+    margin-top: 0;
 }
