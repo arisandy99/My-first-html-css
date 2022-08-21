@@ -43,7 +43,7 @@ body{
     flex-direction: row;
     gap: 15px;
     justify-content: flex-end;
-    margin-top: 8px;
+    margin-top: 17px;
     margin-left: 5px;
 }
 img{
@@ -161,8 +161,14 @@ strong{
     margin-top: 8px;
     margin-left: 5px;
 }
+.pied{
+    margin-top: 17px;
+}
+.main{
+    margin-top: 17px;
+}
 .echange{
-    height: 70vh;
+    height: 72vh;
     width: 100%;
     background-color: whitesmoke;
     display: flex;
@@ -171,4 +177,81 @@ strong{
 .echange h5{
     text-align: center;
     margin-top: 0;
+}
+.large{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    color: black;
+    height: 9%;
+    width: 25%;
+    border: 1px solid rgb(145, 212, 145);
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.blanc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    height: 13%;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: 65%;
+    margin-top: 2px;
+}
+.cas{
+    margin-top: 15px;
+}
+.orange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    height: 16%;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: 65%;
+    margin-top: 2px;
+}
+.noir{
+    margin-top: 19px;
+}
+.blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    color: black;
+    height: 16%;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.chat{
+    margin-top: 25px;
+}
+.clavier{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2px;
+}
+.un{
+    width: 4%;
+}
+.deux{
+    width: 89%;
+    margin-top: 4px;
+}
+.trois{
+    width: 5%;
 }
