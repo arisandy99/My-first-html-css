@@ -182,10 +182,10 @@ strong{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: yellowgreen;
+    background-color: #90EE90;
     color: black;
     height: 9%;
-    width: 25%;
+    width: 45%;
     border: 1px solid rgb(145, 212, 145);
     border-radius: 7px;
     margin-left: 30px;
@@ -227,7 +227,7 @@ strong{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: yellowgreen;
+    background-color: #90EE90;
     color: black;
     height: 16%;
     width: 25%;
